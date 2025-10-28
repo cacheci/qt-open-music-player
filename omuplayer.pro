@@ -19,6 +19,7 @@ SOURCES +=  main.cpp \
 HEADERS +=  widgets/C_BtnQWidget.h
 QT +=       widgets gui svg
 RESOURCES += resources.qrc
+ICON = assets/icons/logo.icns
 
 # Build
 DESTDIR = ./build
@@ -26,6 +27,10 @@ OBJECTS_DIR = ./build/obj
 MOC_DIR = ./build/moc
 RCC_DIR = ./build/rcc
 UI_DIR = ./build/ui
+
+mac {
+    QMAKE_BUNDLE_IDENTIFIER = com.cacheci.openmusicplayer
+}
 
 # i18n
 TRANSLATIONS += myapp_zh_CN.ts

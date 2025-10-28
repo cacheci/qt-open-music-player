@@ -312,6 +312,7 @@ int main(int argc, char *argv[])
 
     // 主窗口
     QWidget w;
+    w.setWindowIcon(QIcon(":/assets/icons/logo.ico"));
     w.resize(800, 500);
     w.setMinimumWidth(600);
     w.setMinimumHeight(450);
