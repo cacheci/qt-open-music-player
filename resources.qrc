@@ -1,0 +1,19 @@
+<RCC>
+  <qresource prefix="">
+    <file>assets/icons/leftW_box_functionlist_fav.svg</file>
+    <file>assets/icons/leftW_box_functionlist_online.svg</file>
+    <file>assets/icons/leftW_box_functionlist_library.svg</file>
+    <file>assets/icons/leftW_box_functionlist_recent.svg</file>
+    <file>assets/icons/logo.svg</file>
+    <file>assets/icons/title.svg</file>
+    <file>assets/icons/leftW_box_bottombtns_foldleft.svg</file>
+    <file>assets/icons/leftW_box_bottombtns_miniplayer.svg</file>
+    <file>assets/icons/leftW_box_bottombtns_lang.svg</file>
+    <file>assets/icons/leftW_box_bottombtns_settings.svg</file>
+    <file>assets/icons/rightW_box_playcontrol_l_ctlmain_btns_orderctl_shuffle.svg</file>
+    <file>assets/icons/rightW_box_playcontrol_l_ctlmain_btns_previous.svg</file>
+    <file>assets/icons/rightW_box_playcontrol_l_ctlmain_btns_next.svg</file>
+    <file>assets/icons/rightW_box_playcontrol_l_ctlmain_btns_volume.svg</file>
+    <file>assets/icons/leftW_box_bottombtns_settings.svg</file>
+  </qresource>
+</RCC>
