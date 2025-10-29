@@ -87,7 +87,7 @@ int main(int argc, char *argv[])
     leftW_box_functionlist -> addWidget(leftW_box_functionlist_library);
     QHBoxLayout *leftW_box_functionlist_library_l = new QHBoxLayout(leftW_box_functionlist_library);  // 左侧栏-功能区-音乐库-按钮部分-内部
     leftW_box_functionlist_library_l -> setContentsMargins(4, 0, 5, 0);
-    leftW_box_functionlist_library_l -> setSpacing(12);
+    leftW_box_functionlist_library_l -> setSpacing(13);
     QSvgWidget *leftW_box_functionlist_library_l_icon = new QSvgWidget(":/assets/icons/leftW_box_functionlist_library.svg");  // 左侧栏-功能区-收藏的音乐-按钮部分-内部-图
     leftW_box_functionlist_library_l_icon -> setFixedSize(20,20);
     leftW_box_functionlist_library_l -> addWidget(leftW_box_functionlist_library_l_icon);
@@ -307,8 +307,15 @@ int main(int argc, char *argv[])
     rightW_box_playcontrol_l -> addStretch();
 
     // 右侧-播放控制-播放控制
-    QHBoxLayout *rightW_box_playcontrol_l_rightctlbtns = new QHBoxLayout;
-    rightW_box_playcontrol_l -> addLayout(rightW_box_playcontrol_l_rightctlbtns);
+    QWidget *rightW_box_playcontrol_l_rightctlbtns = new QWidget;
+    //rightW_box_playcontrol_l_rightctlbtns -> setFixedWidth();
+    rightW_box_playcontrol_l -> addWidget(rightW_box_playcontrol_l_rightctlbtns);
+    QHBoxLayout *rightW_box_playcontrol_l_rightctlbtns_l = new QHBoxLayout;
+    rightW_box_playcontrol_l_rightctlbtns -> setLayout(rightW_box_playcontrol_l_rightctlbtns_l);
+
+    C_BtnQWidget *rightW_box_playcontrol_l_rightctlbtns_l_quality = new C_BtnQWidget;
+    rightW_box_playcontrol_l_rightctlbtns_l_quality -> setFixedSize(20,20);
+    rightW_box_playcontrol_l_rightctlbtns_l -> addWidget(rightW_box_playcontrol_l_rightctlbtns_l_quality);
 
     // 主窗口
     QWidget w;
