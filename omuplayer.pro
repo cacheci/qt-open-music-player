@@ -15,8 +15,12 @@ INCLUDEPATH += .
 
 # Input
 SOURCES +=  main.cpp \
-            widgets/C_BtnQWidget.cpp
-HEADERS +=  widgets/C_BtnQWidget.h
+            widgets/C_BtnQWidget.cpp \
+            Pages/MainPageView.cpp
+
+HEADERS +=  widgets/C_BtnQWidget.h \
+            Pages/MainPageView.h
+
 QT +=       widgets gui svg
 RESOURCES += resources.qrc
 ICON = assets/icons/logo.icns
